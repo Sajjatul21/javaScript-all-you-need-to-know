@@ -3,7 +3,7 @@ let a = 10, b = 20;
 const obj = {
     a,
     b,
-    print: function () {
+    print() {
         console.log(this);
     }
 };
