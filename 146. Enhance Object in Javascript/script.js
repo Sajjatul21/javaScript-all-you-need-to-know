@@ -2,6 +2,9 @@ let a = 10, b = 20;
 
 const obj = {
     a,
-    b
+    b,
+    print: function () {
+        console.log(this);
+    }
 };
-console.log(obj);
+obj.print();
