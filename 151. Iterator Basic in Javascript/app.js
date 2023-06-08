@@ -22,3 +22,7 @@ let iterate = createIterator(arr);
 console.log(iterate.next());
 console.log(iterate.next());
 console.dir(iterate.next);
+console.log(iterate.next());
+console.log(iterate.next());
+console.log(iterate.next());
+console.log(iterate.next());
