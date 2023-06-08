@@ -10,9 +10,15 @@ function createIterator(collection) {
     return {
         next() {
             return {
-                done: i >= collection.length,
-                value: collection[i++]
+                done: index >= collection.length,
+                value: collection[index++]
             };
         }
     };
 }
+const arr = [1, 2, 3, 4];
+let iterate = createIterator(arr);
+// console.log(iterate);
+console.log(iterate.next());
+console.log(iterate.next());
+console.dir(iterate.next);
