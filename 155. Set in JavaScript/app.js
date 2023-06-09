@@ -7,5 +7,5 @@ set.add(4);
 set.add(5);
 set.add(1);
 set.add(2);
+set.clear();
 console.log(set);
-console.log(set.size);
