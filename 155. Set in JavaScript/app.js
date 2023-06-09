@@ -7,5 +7,5 @@ set.add(4);
 set.add(5);
 set.add(1);
 set.add(2);
-console.log(set.has(2));
-console.log(set);
+console.log(set.keys());
+console.log(set.values());
