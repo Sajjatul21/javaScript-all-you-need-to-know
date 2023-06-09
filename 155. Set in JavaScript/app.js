@@ -7,5 +7,5 @@ set.add(4);
 set.add(5);
 set.add(1);
 set.add(2);
-set.clear();
+set.delete(4);
 console.log(set);
