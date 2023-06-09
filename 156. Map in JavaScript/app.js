@@ -17,6 +17,10 @@ console.log(map.keys());
 console.log(map.entries()) */
 
 
-for (let [key, value] of map) {
+/* for (let [key, value] of map) {
     console.log(key, value);
-}
+} */
+
+map.forEach((key, value) => {
+    console.log(key, value);
+});
