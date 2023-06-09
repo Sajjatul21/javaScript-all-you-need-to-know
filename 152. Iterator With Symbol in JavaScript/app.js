@@ -1,5 +1,5 @@
 const arr = [1, 2, 3];
-function createIterator(collection) {
+/* function createIterator(collection) {
     let i = 0;
     return {
         next() {
@@ -10,6 +10,8 @@ function createIterator(collection) {
         }
     };
 }
+ */
+let iterate = arr[Symbol.iterator]()
 
 console.log(iterate.next());
 console.log(iterate.next());
