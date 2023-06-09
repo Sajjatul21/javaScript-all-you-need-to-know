@@ -5,6 +5,7 @@ let map = new Map([
 ]);
 // update value 
 map.set('d', 40);
+map.set({ name: "Shihab" }, 50);
 // delete value
 map.delete('b');
 // get the value
