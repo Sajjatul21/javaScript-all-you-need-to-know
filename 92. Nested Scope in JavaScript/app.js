@@ -7,7 +7,7 @@ function test() {
 
     function nested() {
         // var y = 65;
-        var x = 111;
+        // var x = 111;
         console.log(x);
     }
     // console.log(y);
