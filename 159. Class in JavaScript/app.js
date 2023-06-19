@@ -20,3 +20,4 @@ class Reactangle {
 const react1 = new Reactangle(23, 55);
 // console.log(react1);
 console.log(typeof Reactangle);
+
