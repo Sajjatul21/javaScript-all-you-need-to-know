@@ -4,12 +4,13 @@
 var x = 55;
 function test() {
     var x = 45;
-    console.log(x);
+
     function nested() {
-        var y = 65;
+        // var y = 65;
+        var x = 111;
         console.log(x);
     }
-    console.log(y);
+    // console.log(y);
     nested();
 }
 test();
