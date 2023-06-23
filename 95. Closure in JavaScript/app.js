@@ -4,14 +4,7 @@
 //able to remember and access it's lexical scope
 // when that function executing outside it's lexical scope
 
-/* function test() {
-    const msg = "I am Learning Lexical Scope and Closure";
-    function sayMsg() {
-        console.log(msg);
-    }
-    sayMsg();
-}
-test(); */
+
 
 
 function test() {
