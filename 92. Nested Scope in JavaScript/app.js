@@ -3,7 +3,7 @@
 
 var x = 55;
 function test() {
-    var x = 45;
+    // var x = 45;
 
     function nested() {
         // var y = 65;
