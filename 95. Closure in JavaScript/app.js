@@ -1,4 +1,4 @@
-//Closure is when a funciton is able to remember and access it's lexical scope even when that function executing outside it's lexical scope
+ //Closure is when a funciton is able to remember and access it's lexical scope even when that function executing outside it's lexical scope
 
 
 //able to remember and access it's lexical scope
