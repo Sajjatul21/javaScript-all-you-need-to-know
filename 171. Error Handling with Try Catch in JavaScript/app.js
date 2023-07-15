@@ -5,7 +5,10 @@ function makeWords(text) {
         return words;
     }
     catch (e) {
-        console.log(e);
+        // console.log(e);
+        // console.dir(e);
+        // console.log(e.message);
+        console.log('Please Provide a valid Text');
     }
 }
 let words = makeWords(5432);
