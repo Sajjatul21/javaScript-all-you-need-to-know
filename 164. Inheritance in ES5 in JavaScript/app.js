@@ -10,8 +10,8 @@ class Shape {
 
 
 class Rectangle extends Shape {
-    constructor(width, height) {
-        super();
+    constructor(color, width, height) {
+        super(color);
         this.width = width;
         this.height = height;
     }
@@ -21,6 +21,6 @@ class Rectangle extends Shape {
     }
 }
 
-let r = new Rectangle(4, 5);
+let r = new Rectangle("Red", 4, 5);
 console.log(r);
 r.draw();
