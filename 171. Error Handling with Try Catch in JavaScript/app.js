@@ -3,5 +3,5 @@ function makeWords(text) {
     let words = str.split(' ');
     return words;
 }
-let words = makeWords('           I am Shihab Hossain             ');
+let words = makeWords(5432);
 console.log(words);
