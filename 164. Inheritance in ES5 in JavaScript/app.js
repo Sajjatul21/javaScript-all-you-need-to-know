@@ -6,13 +6,18 @@ class Shape {
 
 
 
-class Rectangle {
-    constructor(width, height){
-        this.width = width
-        this.height = height
+class Rectangle extends Shape {
+    constructor(width, height) {
+        super();
+        this.width = width;
+        this.height = height;
     }
 
-    calculate(){
-        return this.width * this.height
+    calculate() {
+        return this.width * this.height;
     }
 }
+
+let r = new Rectangle(4, 5);
+console.log(r);
+r.draw();
