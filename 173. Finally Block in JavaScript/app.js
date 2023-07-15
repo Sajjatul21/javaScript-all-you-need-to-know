@@ -5,9 +5,10 @@ try {
     console.log('I am line 3');
     console.log('I am line 4');
 }
-catch (e) {
-    console.log(e.message);
+catch /* (e) */ {
+/*     console.log(e.message); */
+    console.log('this is custom error message');
 }
-finally{
-    console.log('I am finally block')
+finally {
+    console.log('I am finally block');
 }
