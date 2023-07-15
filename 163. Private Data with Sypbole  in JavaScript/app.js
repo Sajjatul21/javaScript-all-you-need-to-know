@@ -7,3 +7,4 @@ class Circle {
     }
 }
 let c1 = new Circle(2)
+c1.
