@@ -10,5 +10,5 @@ catch /* (e) */ {
     console.log('this is custom error message');
 }
 finally {
-    console.log('I am finally block');
+    console.log('I am finally block')
 }
