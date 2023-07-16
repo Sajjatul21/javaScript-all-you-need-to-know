@@ -1,10 +1,8 @@
 function sayMyName(name) {
-    let result;
+
     setTimeout(() => {
-        result = name;
-        console.log('I have done......');
-    });
-    return result;
+        console.log(name);
+    }, 3000);
 }
 let output = sayMyName('Sajjatul Islam');
-console.log(output);
+console.log(output); 
