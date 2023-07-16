@@ -1,5 +1,17 @@
 console.log('I am Line One');
-console.log('I am Line Two');
-console.log('I am Line Three');
+
+setTimeout(() => {
+    console.log('I am Line Two');
+}, 3000);
+
+
+setTimeout(() => {
+    console.log('I am Line Three');
+}, 0);
+
 console.log('I am Line Four');
-console.log('I am Line Five');
+
+setTimeout(() => {
+    console.log('I am Line Five');
+}, 1000);
+
