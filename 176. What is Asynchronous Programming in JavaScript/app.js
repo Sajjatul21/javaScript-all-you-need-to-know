@@ -21,3 +21,27 @@ else {
 } 
 
 /* synchronous programming এ লাইন বাই লাইন কোন execute হবে এখন কোন কোন execute হতে যদি ১ ঘন্টা লাগে তখন next line execute হবে না সে তখণ অপেক্ষা করবে  */
+
+
+
+/* Asynchronous => not existing or occurring at the same time */
+/* 
+    What is Asynchronous programming?
+    Ans:-> Asynchronous means that you can multiple things at a time and you don't have to finish executing the current thing in order to move on the next one.
+
+*/
+
+
+var a = 10;
+var b = 20;
+var result = a + b;
+console.log(result);
+
+
+var response = storeResult(result); /* এখানে যদি সময় লাগে তখস সে এটাকে রেখে পরের লাইনে যাব। এখন আমরা পরের লাইনে ইরোর পাবে বাট যখন এই লাইনে ডাটা আসেবে তখন সে আবার এই লাইনে আসবে এবং এই লাইনের রিলেটেড যে কোডগুলো আছে সেগেুলাকে সে আবার ডাটা দিয়ে দিবে। এটাই asynchronous */
+if (response.success) {
+    console.log('successfully stored');
+}
+else {
+    console.log('data store failed');
+} 
