@@ -9,5 +9,7 @@ function asyncMap(arr, cb) {
         setTimeout(cb, 0);
     });
 }
-let qbArr = asyncMap(arr, v => v * v * v);
+let qbArr = asyncMap(arr, v => {
+    console.log(v);
+});
 console.log(qbArr);
