@@ -6,7 +6,7 @@ console.log(squareArray);
 
 function asyncMap(arr, cb) {
     return arr.map(v => {
-        setTimeout(cb, 0);
+        setTimeout(cb.bind(null, v), 0);
     });
 }
 let qbArr = asyncMap(arr, v => {
