@@ -41,3 +41,15 @@ getRequest('https://jsonplaceholder.typicode.com/users', (err, res) => {
         console.log(res);
     }
 });
+
+       // another request for posts   
+getRequest('https://jsonplaceholder.typicode.com/posts', (err, res) => {
+    if (err) {
+        console.log(err);
+    }
+    else {
+        // console.log(res);
+        // res.forEach(r => console.log(r));
+        res.forEach(r => console.log(r.title));
+    }
+});
