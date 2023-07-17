@@ -11,3 +11,6 @@ let p1 = Promise.resolve('test');
 p1.then((v) => {
     console.log(v);
 });
+
+let p2 = Promise.reject('REJECT');
+p2.catch((e) => console.log(e));
