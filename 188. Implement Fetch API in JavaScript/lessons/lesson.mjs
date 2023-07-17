@@ -43,5 +43,10 @@ function getRequest(url) {
     });
 }
 
-let res = getRequest(`${BASE_URL}/users/2`);
-console.log(res);
+let res = getRequest(`${BASE_URL}/users/2`)
+    .then(data => {
+        console.log(data);
+    })
+    .catch(e => {
+        console.log(e);
+    });
