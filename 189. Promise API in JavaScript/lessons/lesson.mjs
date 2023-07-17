@@ -7,4 +7,7 @@ delay(5).then(() => console.log('5 second delay')); */
 
 
 let p1 = Promise.resolve('test');
-console.log(p1);
+// console.log(p1);
+p1.then((v) => {
+    console.log(v);
+});
