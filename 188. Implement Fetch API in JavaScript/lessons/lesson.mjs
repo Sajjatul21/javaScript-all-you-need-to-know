@@ -17,7 +17,7 @@ fetch(`${BASE_URL}/users/2`)
     .catch(e => {
         console.log(e);
     });
-    
+     
 */
 const BASE_URL = "https://jsonplaceholder.typicode.com";
 
