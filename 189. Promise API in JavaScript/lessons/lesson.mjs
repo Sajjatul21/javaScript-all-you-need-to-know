@@ -39,7 +39,9 @@ let p3 = new Promise(resolve => {
 });
 
 let promiseArr = [p1, p2, p3];
-Promise.all(promiseArr)
+/* Promise.all(promiseArr)
     .then(arr => {
         console.log(arr);
-    });
+    }); */
+Promise.race(promiseArr)
+    .then(v => console.log(v));
