@@ -3,6 +3,6 @@
    এর ভিতরে 2 টা টার্ম থাকতে পারে resolve অথবা reject ।
 */
 let p1 = new Promise((resolve, reject) => {
-    setTimeout(resolve, 3000, 'One');
+    setTimeout(resolve, 5000, 'One');
 });
 console.log(p1);
