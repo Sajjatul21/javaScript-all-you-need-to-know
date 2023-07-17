@@ -26,13 +26,30 @@ function getIPhone(isPassed) {
     return new Promise((resolve, reject) => {
         setTimeout(() => {
             if (isPassed) {
-                resolve('I have Got an Iphone');
+                resolve('I have Got an Iphone'); /* এই argument টাকে আমরাে then block এ পাবে  */
             }
             else {
-                reject('You have Failed');
+                reject(new Error('You have Failed')); /* এই argument টাকে আমরাে catch block এ পাবে  */
             }
         }, 2000);
     });
 }
-// console.log(getIPhone(true));
-console.log(getIPhone(false));
+
+getIPhone(true)
+    .then((res) => {
+        console.log(res);
+    })
+    .catch((e) => {
+        // console.log(e);
+        console.log(e.message);
+    });
+
+/* 
+getIPhone(false)
+    .then((res) => {
+        console.log(res);
+    })
+    .catch((e) => {
+        // console.log(e);
+        console.log(e.message);
+    }); */
